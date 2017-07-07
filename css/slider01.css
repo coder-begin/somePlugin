@@ -1,0 +1,45 @@
+.container{
+	width:800px;
+	height:600px;
+	margin:100px auto;
+	
+}
+.imgDiv{
+	position:relative;
+	width:400px;
+	height:300px;	
+	border:1px solid #000;
+	background:url("../images/image_1.jpg") no-repeat center center;
+	background-size:100% 100%;
+}
+.imgDiv>p{
+	position:absolute;
+	width:100%;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	background-color:rgba(0,0,0,0.4);
+	color:#fff;
+}
+.pTop{
+	top:0;
+}
+.pBottom{
+	bottom:0;
+}
+.btnGroup{
+	position:absolute;
+	right:-40px;
+}
+.btnGroup>input{
+	margin-top:10px;
+	display:block;
+	width:30px;
+	height:30px;
+	background-color:rgba(0,0,0,0.2);
+	border:0;
+}
+
+
+
+
