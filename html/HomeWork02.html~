@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<title>第六天</title>	
+			<meta charset="utf-8"/>
+		<link type="text/css" href="../css/HomeWork01.css" rel="stylesheet"/>
+	</head>
+	<body>  
+		<div class="b">
+		<div class="navbgL">
+		<div class="navbgR">
+		<div class="navbgC">
+			<div class="nav_listC">
+			<div class="nav_listL">
+			<div class="nav_listR">HOME</div>
+			</div>
+		</div>
+			<div class="nav_listC">
+			<div class="nav_listL">
+			<div class="nav_listR">ABOUT US</div>
+			</div>
+		</div>
+		<div class="nav_listC">
+				<div class="nav_listL">
+					<div class="nav_listR">PRODUCTS</div>
+				</div>
+		</div>
+			<div class="nav_listC">
+			<div class="nav_listL">
+			<div class="nav_listR">GALLERY</div>
+			</div>
+		</div>
+			<div class="nav_listC">
+			<div class="nav_listL">
+			<div class="nav_listR">CONTACT</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div> 
+	</div>
+</body>
+</html>

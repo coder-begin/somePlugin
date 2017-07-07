@@ -1,0 +1,63 @@
+body:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.nav{
+	
+	height:52px;
+	margin:100px auto;
+	background:url("../images/navbgC.png") repeat-x 0 0;
+	font-family:"微软雅黑";
+	float:left;
+	
+}
+.nav_left{
+	height:52px;
+	
+	background:url("../images/navbgL.png") no-repeat left 0;
+}
+.nav_right{
+	height:52px;
+	background:url("../images/navbgR.png") no-repeat right 0;
+}
+.nav:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.nav_right{
+	padding:0 6px;
+}
+.nav_right>a{
+	float:left;
+	background:url("../images/nav_backC.png") repeat-x 0 0;
+	z-index:10;
+}
+.nav_list_left{
+	height:52px;
+	background:url("../images/nav_listL.png") no-repeat left 0;
+
+}
+.nav_list_right{
+	background:url("../images/nav_listR.png") no-repeat right 0;
+	padding:0 20px;
+	line-height:36px;
+	height:52px;
+	text-align:center;
+}
+a:hover{
+	background:url("../images/nav_activeC.png") repeat-x 0 0;
+}
+a:hover .nav_list_left{
+	height:52px;
+	background:url("../images/nav_activeL.png") no-repeat left 0;
+}
+a:hover .nav_list_right{
+	height:52px;
+	background:url("../images/nav_activeR.png") no-repeat right 0;
+}
+
+.nav>a .nav{
+	padding:8px 20px;
+}
